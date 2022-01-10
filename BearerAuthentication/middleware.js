@@ -40,7 +40,7 @@ module.exports = (app) => {
 
       const token = jwt.sign({
         userName: userName,
-        role: 'amin',
+        role: 'admin',
         email: 'bearertest@gmail.com'
       }, 'thisismysecret', {
         expiresIn: 90
